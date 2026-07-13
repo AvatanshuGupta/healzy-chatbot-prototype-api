@@ -1,0 +1,17 @@
+# --- Web framework ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# --- Settings / env management ---
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+
+# --- Supabase client (talks to your Postgres/Supabase project) ---
+supabase==2.7.4
+
+# --- Hugging Face inference client (calls hosted open-source LLMs) ---
+huggingface_hub==0.25.1
+
+# --- CORS / misc ---
+python-multipart==0.0.9
