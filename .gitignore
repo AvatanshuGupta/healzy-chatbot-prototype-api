@@ -1,2 +1,3 @@
 capi
 .env.example
+.env
