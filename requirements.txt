@@ -11,7 +11,7 @@ python-dotenv==1.0.1
 supabase==2.7.4
 
 # --- Hugging Face inference client (calls hosted open-source LLMs) ---
-huggingface_hub==0.25.1
+huggingface_hub==1.0.0
 
 # --- CORS / misc ---
 python-multipart==0.0.9

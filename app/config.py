@@ -25,7 +25,7 @@ class Settings(BaseSettings):
 
     # ---- Hugging Face ----
     HF_TOKEN: str
-    HF_MODEL: str = "mistralai/Mistral-7B-Instruct-v0.3"
+    HF_MODEL: str = "meta-llama/Llama-3.1-8B-Instruct"
 
     # ---- LLM generation params ----
     LLM_MAX_NEW_TOKENS: int = 512
